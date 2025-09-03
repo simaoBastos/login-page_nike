@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
+    font-weight: 500;
+    color: #181818;
+}
+
+#container{
+    display: flex;
+}
+
+
+#left_side{
+    background-color: #F8F8F8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+
+#welcome{
+    text-align: start;
+    width: 100%;
+    max-width: 330px;
+    margin-bottom: 37.18px;
+    cursor: default;
+}
+
+h1{
+    font-size: 34px;
+    color: #030303;
+}
+
+h4{
+    font-weight: 400;
+    color: #636364;
+}
+
+#input_box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 330px;
+    
+}
+
+input{
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+#input_box input{
+    display: flex;
+    padding: 10px;
+    width: 100%;
+    border-radius: 12px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    cursor: text;
+}
+
+#email_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 21px;
+}
+
+#password_input{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 16px;
+}
+
+#remember_forgot{
+    font-size: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+
+    width: 100%;
+    max-width: 330px;
+    margin-bottom: 16.7px;
+}
+
+#remember{
+    display: flex;
+    align-items: center;
+    gap: 6.2px;
+}
+
+
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+    color: #030303;
+}
+
+#signin{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 313.97px;
+    gap: 11.36px;
+    margin-bottom: 15.72px;
+}
+
+#signin button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 41.31px;
+    padding: 6.2px;
+    border-radius: 12px;
+    border: none;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+#button_normalSignin{
+    background-color: #EA454C;
+    color: white;
+    font-weight: 500;
+    border: none;
+}
+
+#button_googleSignin{
+    background-color: rgba(0, 0, 0, 0);
+    gap: 3.1px;
+}
+
+#signup{
+    font-size: 10px;
+    cursor: default
+}
+
+#signup a{
+    color: #EA454C;
+}
+
+#right_side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#right_side img{
+    display: flex;
+    height: 100vh;
+    width: auto;
+    display: block;
+}
